@@ -19,7 +19,6 @@ a:hover, a:focus {
 }
 
 .main-nav, 
-.service-icon, 
 .progress-bar.progress-bar-primary, 
 .single-table.featured, 
 .btn.btn-primary, 
@@ -34,7 +33,15 @@ a:hover, a:focus {
 .left-control:hover, 
 .right-control:hover, 
 .folio-overview a:hover {
-  background-color:#028fcc;
+  background-color:#027db3;
+}
+
+.service-icon {
+  background-color:#eccb2e;
+}
+
+.service-icon:hover {
+  background-color:#027db3;
 }
 
 .twitter-left-control:hover, 
