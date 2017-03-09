@@ -1,0 +1,16 @@
+textarea.ng-invalid.ng-touched, input.ng-invalid.ng-touched {
+  border: 1px solid #DA3637;
+  border-radius: 5px;
+}
+
+textarea.ng-valid.ng-touched, input.ng-valid.ng-touched {
+  border: 2px solid #509D12;
+  border-radius: 5px;
+}
+
+.validationerror {
+    color: red;
+}
+ div > span {
+     color: #018ECB;
+ }
