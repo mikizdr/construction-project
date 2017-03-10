@@ -12,5 +12,9 @@ textarea.ng-valid.ng-touched, input.ng-valid.ng-touched {
     color: red;
 }
  div > span {
-     color: #018ECB;
+     color: white;
+ }
+ 
+ .required {
+     color: red;
  }
