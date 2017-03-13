@@ -18,3 +18,11 @@ textarea.ng-valid.ng-touched, input.ng-valid.ng-touched {
  .required {
      color: red;
  }
+
+ img {
+     width: 100%;
+ }
+
+ button.close {
+     color: red;
+ }
