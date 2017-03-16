@@ -44,6 +44,9 @@
 		font-size: 15px;
 		padding: 0 30px;
 	}
+	#home-slider .caption {
+		top: 40%;
+	}
 	.left-control, .right-control {
 		font-size: 20px;
 		height: 30px;
@@ -58,7 +61,7 @@
 	}
 	.caption .btn-start {
 		font-size: 12px;
-		padding: 10px 30px;
+		padding: 10px 3px;
 	}
 	.navbar-brand {
 		padding: 0 15px 15px;
