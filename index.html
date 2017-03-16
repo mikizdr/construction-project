@@ -406,7 +406,7 @@
                   </div>
                   <div class="folio-overview">
                     
-                    <span class="folio-expand"><a href="#" data-toggle="modal" data-target="#klinka8"><i class="fa fa-search-plus"></i></a></span>
+                    <span class="folio-expand"><a href="#" data-toggle="modal" data-target="#interior"><i class="fa fa-search-plus"></i></a></span>
                   </div>
                 </div>
               </div>
@@ -458,7 +458,7 @@
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
           <div class="row">
             <div class="col-sm-6">
-              <form id="main-contact-form" name="myForm" method="POST" ng-submit="emlvalid.handleFormSubmit()" novalidate>
+              <form id="main-contact-form" name="myForm" method="POST" action="sendemail.php" novalidate>
                 <div ng-hide="emlvalid.warning">
                   <p>Complete and sumbit the form below to send an email to us.
                   You`ll get an answer as soon as possible. Fields marked with <span class="required">* </span> are required.</p>
@@ -508,7 +508,7 @@
                 <div class="form-group">
                   <textarea name="message" id="message" class="form-control" rows="4" 
                   placeholder="Enter your message" 
-                  ng-model="message"
+                  ng-model="user.message"
                   ng-minlength="10" 
                   ng-maxlength="300"
                   ng-pattern="/^[a-zA-Z0-9\s.]*$/"
@@ -519,7 +519,7 @@
                   </p>
                 </div>                        
                 <div class="form-group">
-                  <button ng-disabled="myForm.$invalid" type="submit" class="btn-submit">Send Now</button>
+                  <button ng-disabled="myForm.$invalid" type="submit" ng-click="emlvalid.handleFormSubmit()" class="btn-submit">Send Now</button>
                 </div>
               </form>   
               
@@ -1329,7 +1329,7 @@
   </div>
 
   <!-- Modal Klinka -->
-  <div class="modal fade" id="klinka7" role="dialog">
+  <div class="modal fade" id="klinka" role="dialog">
     <div class="modal-dialog modal-lg">
     
       <!-- Klinka content-->
@@ -1434,7 +1434,7 @@
   </div>
 
   <!-- Modal Interior design -->
-  <div class="modal fade" id="klinka8" role="dialog">
+  <div class="modal fade" id="interior" role="dialog">
     <div class="modal-dialog modal-lg">
     
       <!-- Interior design content-->
