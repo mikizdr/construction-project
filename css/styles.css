@@ -42,6 +42,5 @@ textarea.ng-valid.ng-touched, input.ng-valid.ng-touched {
 
  .zoom img:hover {
      opacity: 0.5;
-     transform: rotate(180deg);
-     transform: scale(2,2);
+     transform: rotate(360deg) scale(2, 2);
  }
