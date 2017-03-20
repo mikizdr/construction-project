@@ -26,3 +26,22 @@ textarea.ng-valid.ng-touched, input.ng-valid.ng-touched {
  button.close {
      color: red;
  }
+
+ .outer {
+     background-color: black;
+ }
+
+ .thumbnail {
+     position: relative;
+ }
+
+ .zoom img {
+    -webkit-transition: -webkit-opacity 1s, -webkit-transform 2s; /* Safari */
+    transition: opacity 1s, transform 1s;
+ }
+
+ .zoom img:hover {
+     opacity: 0.5;
+     transform: rotate(180deg);
+     transform: scale(2,2);
+ }
