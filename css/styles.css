@@ -37,7 +37,7 @@ textarea.ng-valid.ng-touched, input.ng-valid.ng-touched {
 
  .zoom img {
     -webkit-transition: -webkit-opacity 1s, -webkit-transform 2s; /* Safari */
-    transition: opacity 1s, transform 1s;
+    transition: opacity 1s, transform 1s ease-in;
  }
 
  .zoom img:hover {
