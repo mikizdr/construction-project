@@ -88,3 +88,5 @@ $company_phone = 'Phone';
 $company_email = 'Email';
 
 $company_website = 'Website';
+
+$close_button = 'Close';

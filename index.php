@@ -577,7 +577,7 @@
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
         </div>
 
           </div>
@@ -612,13 +612,11 @@
           </div>
 
           <?php } ?>
-          
-          
 
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
         </div>
 
           </div>
@@ -627,40 +625,36 @@
     </div>
   </div>
 
-  <!-- Modal Underfloor cladding -->
+  <!-- Modal <?php echo $portfolio[5][0]; ?> -->
   <div class="modal fade" id="underfloor_cladding" role="dialog">
     <div class="modal-dialog modal-lg">
     
-      <!-- Underfloor cladding content-->
+      <!-- <?php echo $portfolio[5][0]; ?> content-->
       <div class="modal-content">
         
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title">Underfloor cladding</h4>
+          <h4 class="modal-title"><?php echo $portfolio[5][0]; ?></h4>
         </div>
 
         <div class="modal-body">
 
+          <?php for($i=1;$i<=2;$i++) { ?>
+
           <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/underfloor_cladding/1.jpg" alt="Underfloor cladding" title="Construction Project ltd Underfloor cladding">
+            <img class="img-responsive" src="images/portfolio/underfloor_cladding/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[5][0]; ?>" title="<?php echo $company.' '.$portfolio[5][0]; ?>">
             <div class="caption">
               <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Underfloor cladding</p>
+              <p><?php echo $portfolio[5][0]; ?></p>
             </div>
           </div>
 
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/underfloor_cladding/2.jpg" alt="Underfloor cladding" title="Construction Project ltd Underfloor cladding">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Underfloor cladding</p>
-            </div>
-          </div>
+          <?php } ?>
 
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
         </div>
 
           </div>
@@ -669,112 +663,36 @@
     </div>
   </div>
 
-  <!-- Modal Gypsum -->
+  <!-- Modal <?php echo $portfolio[2][0]; ?> -->
   <div class="modal fade" id="gypsum" role="dialog">
     <div class="modal-dialog modal-lg">
     
-      <!-- Gypsum content-->
+      <!-- <?php echo $portfolio[2][0]; ?> content-->
       <div class="modal-content">
         
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title">Gypsum</h4>
+          <h4 class="modal-title"><?php echo $portfolio[2][0]; ?></h4>
         </div>
 
         <div class="modal-body">
 
+          <?php for($i=1;$i<=11;$i++) { ?>
+
           <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/1.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
+            <img class="img-responsive" src="images/portfolio/gypsum/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[2][0]; ?>" title="<?php echo $company.' '.$portfolio[5][0]; ?>">
             <div class="caption">
               <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-          
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/2.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
+              <p><?php echo $portfolio[2][0]; ?></p>
             </div>
           </div>
 
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/3.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/4.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/5.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/6.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/7.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/8.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/9.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/10.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/11.jpg" alt="Gypsum" title="Construction Project ltd Gypsum">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Gypsum</p>
-            </div>
-          </div>
+          <?php } ?>
 
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
         </div>
 
           </div>
@@ -784,104 +702,36 @@
     </div>
   </div>
 
-  <!-- Modal Klinka -->
+  <!-- Modal <?php echo $portfolio[3][0]; ?> -->
   <div class="modal fade" id="klinka" role="dialog">
     <div class="modal-dialog modal-lg">
     
-      <!-- Klinka content-->
+      <!-- Klinka <?php echo $portfolio[3][0]; ?>-->
       <div class="modal-content">
         
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title">Klinka</h4>
+          <h4 class="modal-title"><?php echo $portfolio[3][0]; ?></h4>
         </div>
 
         <div class="modal-body">
 
+          <?php for($i=1;$i<=10;$i++) { ?>
+
           <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/1.jpg" alt="Klinka" title="Construction Project ltd Klinka">
+            <img class="img-responsive" src="images/portfolio/klinka/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[3][0]; ?>" title="<?php echo $company.' '.$portfolio[3][0]; ?>">
             <div class="caption">
               <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-          
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/2.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
+              <p><?php echo $portfolio[3][0]; ?></p>
             </div>
           </div>
 
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/3.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/4.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/5.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/6.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/7.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/8.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/9.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/10.jpg" alt="Klinka" title="Construction Project ltd Klinka">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Klinka</p>
-            </div>
-          </div>
+          <?php } ?>
 
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
         </div>
 
       </div>
@@ -889,72 +739,36 @@
     </div>
   </div>
 
-  <!-- Modal Interior design -->
+  <!-- Modal <?php echo $portfolio[6][0]; ?> -->
   <div class="modal fade" id="interior" role="dialog">
     <div class="modal-dialog modal-lg">
     
-      <!-- Interior design content-->
+      <!-- <?php echo $portfolio[6][0]; ?> content-->
       <div class="modal-content">
         
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title">Interior design</h4>
+          <h4 class="modal-title"><?php echo $portfolio[6][0]; ?></h4>
         </div>
 
         <div class="modal-body">
 
+          <?php for($i=1;$i<=6;$i++) { ?>
+
           <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/interior/1.jpg" alt="Interior design" title="Construction Project ltd Interior design">
+            <img class="img-responsive" src="images/portfolio/interior/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[6][0]; ?>" title="<?php echo $company.' '.$portfolio[6][0]; ?>">
             <div class="caption">
               <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Interior design</p>
+              <p><?php echo $portfolio[6][0]; ?></p>
             </div>
           </div>
 
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/interior/2.jpg" alt="Interior design" title="Construction Project ltd Interior design">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Interior design</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/interior/3.jpg" alt="Interior design" title="Construction Project ltd Interior design">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Interior design</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/interior/4.jpg" alt="Interior design" title="Construction Project ltd Interior design">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Interior design</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/interior/5.jpg" alt="Interior design" title="Construction Project ltd Interior design">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Interior design</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/interior/6.jpg" alt="Interior design" title="Construction Project ltd Interior design">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Interior design</p>
-            </div>
-          </div>
+          <?php } ?>
 
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
         </div>
 
       </div>
@@ -962,72 +776,36 @@
     </div>
   </div>
 
-  <!-- Modal Painting -->
+  <!-- Modal <?php echo $portfolio[4][0]; ?> -->
   <div class="modal fade" id="painting" role="dialog">
     <div class="modal-dialog modal-lg">
     
-      <!-- Painting content-->
+      <!-- <?php echo $portfolio[4][0]; ?> content-->
       <div class="modal-content">
 
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title">Painting</h4>
+          <h4 class="modal-title"><?php echo $portfolio[4][0]; ?></h4>
         </div>
 
         <div class="modal-body">
 
+          <?php for($i=1;$i<=6;$i++) { ?>
+
           <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/painting/2.jpg" alt="Painting" title="Construction Project ltd Painting">
+            <img class="img-responsive" src="images/portfolio/painting/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[4][0]; ?>" title="<?php echo $company.' '.$portfolio[4][0]; ?>">
             <div class="caption">
               <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Painting</p>
+              <p><?php echo $portfolio[4][0]; ?></p>
             </div>
           </div>
 
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/painting/3.jpg" alt="Painting" title="Construction Project ltd Painting">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Painting</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/painting/4.jpg" alt="Painting" title="Construction Project ltd Painting">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Painting</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/painting/5.jpg" alt="Painting" title="Construction Project ltd Painting">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Painting</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/painting/6.jpg" alt="Painting" title="Construction Project ltd Painting">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Painting</p>
-            </div>
-          </div>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/painting/1.jpg" alt="Painting" title="Construction Project ltd Painting">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p>Painting</p>
-            </div>
-          </div>
+          <?php } ?>
 
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
         </div>
 
       </div>
