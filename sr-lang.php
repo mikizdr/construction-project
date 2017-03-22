@@ -8,85 +8,85 @@ $language = ['English', 'Български', 'Deutsch', 'Српски'];
 
 $slogan = 'консалтинг - пројектовање - конструисање - изградња';
 
-$menu = ['home', 'about us', 'services', 'portfolio', 'contact'];
+$menu = ['Почетна', 'О Нама', 'Услуге', 'Референце', 'Контакт'];
 
 $slides = [
-    ['Welcome to ', 'Construction project ltd.'],
-    ['Look At ', 'Who We Are'],
-    ['Look At ', 'What We Do'],
-    ['Our ', 'Reference List'],
-    ['Contact ', 'Us']
+    ['Добродошли на ', 'Construction project д.o.o.'],
+    ['Погледајте ', 'Ко Смо Ми'],
+    ['Погледајте ', 'What We Do'],
+    ['Погледајте ', 'Нашу Листу Референци'],
+    ['Контактирајте ', 'Нас']
 ];
 
-$services_title = 'Our Services';
+$services_title = 'Наше Услуге';
 
-$services_text = 'Below is the list of our services:';
+$services_text = 'Испод су набројане све наше услуге које пружамо:';
 
 $services = [
-    ['Projects', '&nbsp;'],
-    ['Urban projects to build', '&nbsp;'],
-    ['Preparation of detailed regulation plans', '&nbsp;'],
-    ['Works and designing residential and commercial buildings', 'commercial, warehouse, manufacturing'],
-    ['Others design', 'auxiliary buildings, agricultural buildings'],
-    ['Studies on the assessment of environmental impact', '&nbsp;'],
-    ['Projects for legalization of buildings', '&nbsp;'],
-    ['Material specifications', 'and the estimated value'],
-    ['Projects of fire protection', '&nbsp;'],
-    ['Studies of energy efficiency', '&nbsp;'],
-    ['Electrical works for strong and weak currents', '&nbsp;'],
-    ['Locksmith and mechanical works', '&nbsp;']
+    ['Пројекти', '&nbsp;'],
+    ['Урбанистички пројекти за изградњу', '&nbsp;'],
+    ['Припрема детаљних регулационих планова', '&nbsp;'],
+    ['Извођење радова и пројектовање стамбених и пословних објеката', 'комерцијалних, складишта, производих погона'],
+    ['Остало пројектовање', 'помоћне зграде, пољопривредни објекти, ...'],
+    ['Студије о прецени утицаја на животну стредину', '&nbsp;'],
+    ['Пројекти за легализацију објеката', '&nbsp;'],
+    ['Спецификација материјала', 'и процена вредности'],
+    ['Пројекти за противпожарну заптиту', '&nbsp;'],
+    ['Студије енергетске ефикасности', '&nbsp;'],
+    ['Извођење електричних радова за слабу и јаку струју', '&nbsp;'],
+    ['Извођење браварских и машинских радова', '&nbsp;']
 ];
 
-$aboutus_title = 'About us';
+$aboutus_title = 'О Нама';
 
-$aboutus_text_1 = '"Construction project" ltd. eood is a private company with a long tradition in the design and construction of facilities. Investors have helped to successfully start your business or apartment in a new location.';
+$aboutus_text_1 = '"Construction project" д.о.о. eood је приватно предузеће са дугом традицијом у пројектовању и изградњи објеката. Помажемо инвеститорима да успешно започну посао или стан у новој локацији.';
 
-$aboutus_text_2 = '"Construction project" ltd. for you can do all by system - key in hands, urban design, preliminary and final design and all types of work. We have professional team of licensed construction engineer as well as electrical engineers and technicians who lead the firm and control the quailty of work.';
+$aboutus_text_2 = '"Construction project" д.о.о. за вас може направити све по систему - кључ у руке, урбанистичке планове, идејне и главне пројекте и све врсте радова. Имамо тим састављен од професионалаца, који су лиценцирани грађевински инжењери, као и електро инжењере и техничаре који воде фирму и контролишу квалитет изведених радова.';
 
-$history_title = 'History';
+$history_title = 'Историја';
 
-$history_text_1 = '"Construction project ltd." was founded in 1989. The beginnings are tied to an independent building, which two years later grew into a company for design and engineering "Construction project ltd.". Founder is Krumov Slobodan, graduated engineer of construction. In the following years, "Construction project" slowly but surely becoming one of the leaders of the works in the environment. In 1999. "Construction project ltd." received its final form of organization and became a limited liability company. We have built a long tradition on the territory of the former Yugoslavia, Russia, Germany.';
+$history_text_1 = '"Construction project" д.о.о. је основан 1989. године. Почеци су везани за независну изградњу, која две године касније прераста у компанију за пројектовање и инжењеринг "Construction project" д.о.о. Оснивач је Слободан Крумов, дипломирани инжењер грађевине. У наредним годинама, "Construction project" полако али сигурно постаје један од лидера у изгради у окружењу. 1999. године "Construction project" д.о.о. добија своју финалну форму организације и постаје друштво са ограниченом одговорношћу - д.о.о. Изградили смо дугу традицију на простору бивше Југославије, Русије, Немачке.';
 
-$history_text_2 = 'Today, "Construction project ltd." is synonymous with professionalism, honesty, safety and quality. In the past 25 years we have gained knowledge and experience that today "Constrution project ltd" can do all for you by system - key in hands. From procurement of land, urban design, conceptual design, preliminary and detailed design, to all types of work.';
+$history_text_2 = 'Данас, "Construction project" д.о.о. је синоним за професионалност, поштење, сигурност и квалитет. У протеклих 25 година стекли смо знање и искуство које данас омогућује да "Construction project" д.о.о. може да уради апсолутно све за вас по систему - кључ у руке. Од набавке земљишта, урбанистичког пројектовања, преко концепта, идејног и главног пројекта, до извођења све врсте радова.';
 
-$portfolio_title = 'Our Portfolio';
+$portfolio_title = 'Наше Референце';
 
-$portfolio_text = 'This is just a part of our works to which we are very proud.';
+$portfolio_text = 'Ово је само део наших послова на које смо изузетно поносни.';
 
 $portfolio = [
-    ['Rough construction works', 'Doing any kind of contruction works and preparations'],
-    ['Facade', 'Facade decoration'],
-    ['Gypsum', 'Plaster works'],
-    ['Klinka', 'Lining the walls of brick'],
-    ['Painting', 'Painting walls and facades'],
-    ['Underfloor cladding', 'Coating all types of floors and surfaces'],
-    ['Interior design', 'Coating all types of floors and surfaces'],
-    ['Exterior design', 'Coating all types of floors and surfaces']
+    ['Груби грађевниски рафови', 'Извођење свих врста грађевинских радова и припрема'],
+    ['Фасаде', 'Декоративне и изолационе фасаде'],
+    ['Гипсани радови', 'Све врсте гипсаних радова са гипсом или материјалма од гипса'],
+    ['Клинка', 'Облагање зидова од опеке'],
+    ['Молерај', 'Кречење и фарбање зодова и фасада'],
+    ['Подно облагање', 'Пресвлачење свих врста подова и површина'],
+    ['Дизајн ентеријера', 'Дизајн и уређење свих врста ентеријера'],
+    ['Дизајн екстеријера', 'Извођење свих врста радова на спољашњем уређењу објеката и површина']
 ];
 
-$contact_title = 'Contact Us';
+$contact_title = 'Контактирајте Нас';
 
-$contact_text_1 = 'Complete and sumbit the form below to send an email to us.
-                  You`ll get an answer as soon as possible. Fields marked with <span class="required">* </span> are required.';
+$contact_text_1 = 'Попуните и пошаљите образац испод, како бисте нам послали поруку. 
+                  Добићете одговор у најкраћем могућем року. Поља означена <span class="required">* </span> су обавезна.';
 
-$contact_text_2 = 'This is the place where you can contact us. Feel free to ask any questions concerning our job and you`ll get an answer as soon as possible.';
+$contact_text_2 = 'Ово је место где нас можете контактирати. Слободно нас питајте било које питање из области којом се ми бавимо и добићет одговор од наших стручњака у што краћем року. Хвала унапред.<br><br>';
 
-$error_name = 'You must fill out your name and it must be without numbers.';
+$error_name = 'Морате унети ваше име и оно не сме садржати бројеве.';
 
-$error_email = 'You must fill out a valid email address.';
+$error_email = 'Морате унети вашу email адресу.';
 
-$error_subject = 'You must fill out the subject for your message.';
+$error_subject = 'Морате унети тему на коју се односи ваша порука.';
 
-$error_message = 'Message can`t be shorter than 10 chars nor longer than 300 chars and can contain only letters, numbers and sign of interpuctions.';
+$error_message = 'Порука не може бити краћа од 10 карактера нити дуже од 300 и може садржати само слова и бројеве и знакове интерпункције.';
 
-$company_name = 'Company';
+$company_name = 'Компанија';
 
-$company_address = 'Address';
+$company_address = 'Адреса';
 
-$company_phone = 'Phone';
+$company_phone = 'Телефон';
 
 $company_email = 'Email';
 
 $company_website = 'Website';
 
-$close_button = 'Close';
+$close_button = 'Затвори';
