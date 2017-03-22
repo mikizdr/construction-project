@@ -288,7 +288,7 @@
       </div> 
     </div>
 
-    <!-- GALLERY -->
+    <!-- PORTFOLIO -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="50ms">
@@ -308,7 +308,7 @@
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
           <div class="thumbnail zoom">
             <a href="#" data-toggle="modal" data-target="#<?php echo $portfolio[1][0]; ?>">
-              <img src="images/portfolio/thmb/<?php echo $portfolio[1][0]; ?>.jpg" alt="<?php echo $portfolio[1][0]; ?>" title="<?php echo $company.' '.$portfolio[1][0]; ?>" style="width:100%">
+              <img src="images/portfolio/thmb/facade.jpg" alt="<?php echo $portfolio[1][0]; ?>" title="<?php echo $company.' '.$portfolio[1][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[1][0]; ?></h3>
                 <p><?php echo $portfolio[1][1]; ?></p>
