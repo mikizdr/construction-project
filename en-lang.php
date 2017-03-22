@@ -30,7 +30,7 @@ $services = [
     ['Others design', 'auxiliary buildings, agricultural buildings'],
     ['Studies on the assessment of environmental impact', '&nbsp;'],
     ['Projects for legalization of buildings', '&nbsp;'],
-    ['Material specifications', 'and the estimated value'],
+    ['Material specification', 'and estimating values'],
     ['Projects of fire protection', '&nbsp;'],
     ['Studies of energy efficiency', '&nbsp;'],
     ['Electrical works for strong and weak currents', '&nbsp;'],
@@ -39,15 +39,23 @@ $services = [
 
 $aboutus_title = 'About us';
 
-$aboutus_text_1 = '"Construction project" ltd. eood is a private company with a long tradition in the design and construction of facilities. Investors have helped to successfully start your business or apartment in a new location.';
+$aboutus_text_1 = '"Construction project" ltd. eood is a private company with a long tradition in the design and construction of facilities. 
+Investors have helped to successfully start your business or apartment in a new location.';
 
-$aboutus_text_2 = '"Construction project" ltd. for you can do all by system - key in hands, urban design, preliminary and final design and all types of work. We have professional team of licensed construction engineer as well as electrical engineers and technicians who lead the firm and control the quailty of work.';
+$aboutus_text_2 = '"Construction project" ltd. for you can do all by system - key in hands, urban design, preliminary and final design and 
+all types of work. We have professional team of licensed construction engineers as well as electrical engineers and technicians who lead the firm and control the quailty of work.';
 
 $history_title = 'History';
 
-$history_text_1 = '"Construction project ltd." was founded in 1989. The beginnings are tied to an independent building, which two years later grew into a company for design and engineering "Construction project ltd.". Founder is Krumov Slobodan, graduated engineer of construction. In the following years, "Construction project" slowly but surely becoming one of the leaders of the works in the environment. In 1999. "Construction project ltd." received its final form of organization and became a limited liability company. We have built a long tradition on the territory of the former Yugoslavia, Russia, Germany.';
+$history_text_1 = '"Construction project ltd." was founded in 1989. The beginnings are tied to an independent building, 
+which two years later grew into a company for design and engineering "Construction project ltd.". Founder is Krumov Slobodan, 
+graduated engineer of construction. In the following years, "Construction project" slowly but surely becoming one of the leaders 
+of the works in the environment. In 1999. "Construction project ltd." received its final form of organization and became a 
+limited liability company. We have built a long tradition on the territory of the former Yugoslavia, Russia, Germany.';
 
-$history_text_2 = 'Today, "Construction project ltd." is synonymous with professionalism, honesty, safety and quality. In the past 25 years we have gained knowledge and experience that today "Constrution project ltd" can do all for you by system - key in hands. From procurement of land, urban design, conceptual design, preliminary and detailed design, to all types of work.';
+$history_text_2 = 'Today, "Construction project ltd." is synonymous with professionalism, honesty, safety and quality. 
+In the past 25 years we have gained knowledge and experience that today "Constrution project ltd" can do all for you by system - key in hands. 
+From procurement of land, urban design, conceptual design, over preliminary and detailed design, to all types of work.';
 
 $portfolio_title = 'Our Portfolio';
 
