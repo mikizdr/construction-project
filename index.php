@@ -1,5 +1,15 @@
 <?php
-    include 'en-lang.php';
+    # what language we shall use with the GET method
+
+              if (!(isset($_GET['lang']))) {
+                $lang = 'en';
+                include $lang.'-lang.php';
+              } else {
+                $lang = $_GET['lang'];
+                include $lang.'-lang.php';
+              }           
+           
+    
 ?>
 
 <!DOCTYPE html>
@@ -44,10 +54,10 @@
           <div class="caption">
             <h1 class="animated fadeInLeftBig"><?php echo $slides[0][0]; ?><span><?php echo $slides[0][1]; ?></span></h1>
             <p class="animated fadeInRightBig"><?php echo $slogan; ?></p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services"><?php echo $language[0]; ?></a>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services"><?php echo $language[1]; ?></a>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services"><?php echo $language[2]; ?></a>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="sr.html"><?php echo $language[3]; ?></a>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="index.php?lang=en"><?php echo $language[0]; ?></a>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="index.php?lang=bg"><?php echo $language[1]; ?></a>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="index.php?lang=de"><?php echo $language[2]; ?></a>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="index.php?lang=sr"><?php echo $language[3]; ?></a>
           </div>
         </div>
         <div class="item" style="background-image: url(images/slider/cp-02.jpg)">
