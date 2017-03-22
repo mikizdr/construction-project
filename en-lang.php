@@ -69,7 +69,7 @@ $contact_title = 'Contact Us';
 $contact_text_1 = 'Complete and sumbit the form below to send an email to us.
                   You`ll get an answer as soon as possible. Fields marked with <span class="required">* </span> are required.';
 
-$contact_text_2 = 'This is the place where you can contact us. Feel free to ask any questions concerning our job and you`ll get an answer as soon as possible. Thanks in advance.<br><br>';
+$contact_text_2 = 'This is the place where you can contact us. Feel free to ask any questions concerning what we do and you`ll get an answer as soon as possible. Thanks in advance.<br><br>';
 
 $error_name = 'You must fill out your name and it must be without numbers.';
 
