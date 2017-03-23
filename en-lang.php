@@ -11,7 +11,7 @@ $slogan = "consulting - designing - constructing - building";
 $menu = ['home', 'about us', 'services', 'portfolio', 'contact'];
 
 $slides = [
-    ['Welcome to ', 'Construction project ltd.'],
+    ['Welcome to ', 'Construction project ltd'],
     ['Look At ', 'Who We Are'],
     ['Look At ', 'What We Do'],
     ['Our ', 'Reference List'],
