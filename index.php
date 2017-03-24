@@ -307,7 +307,7 @@
 
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
           <div class="thumbnail zoom">
-            <a href="modals/facade.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#<?php echo $portfolio[1][0]; ?>">
+            <a href="modals/facade.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#facade">
               <img src="images/portfolio/thmb/facade.jpg" alt="<?php echo $portfolio[1][0]; ?>" title="<?php echo $company.' '.$portfolio[1][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[1][0]; ?></h3>
@@ -488,7 +488,7 @@
                   <li><i class="fa fa-institution"></i> <span> <?php echo $company_name; ?>:</span> "CONSTRUCTION PROJEKT" EOOD </li>
                   <li><i class="fa fa-map-marker"></i> <span> <?php echo $company_address; ?>:</span> Stand Slivnitsa 2200, Gebiet Sofia, Yuriy Gargarin str. No 84 </li>
                   <li><i class="fa fa-phone"></i> <span> <?php echo $company_phone; ?>:</span> +49 151 75 666 243  </li>
-                  <li><i class="fa fa-envelope"></i> <span> <?php echo $company_email; ?>:</span><a href="mailto:sloba.veber@gmail.com"> support@contructionproject.com</a></li>
+                  <li><i class="fa fa-envelope"></i> <span> <?php echo $company_email; ?>:</span><a href="mailto:info@constructionprojectltd.com"> info@contructionproject.com</a></li>
                   <li><i class="fa fa-globe"></i> <span> <?php echo $company_website; ?>:</span> <a href="#">www.contructionproject.com</a></li>
                 </ul>
               </div>                            
@@ -507,7 +507,7 @@
         </div>
         <div class="social-icons">
           <ul>
-            <li><a class="envelope" href="mailto:sloba.veber@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="envelope" href="mailto:info@constructionprojectltd.com"><i class="fa fa-envelope"></i></a></li>
             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
           </ul>
