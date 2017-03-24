@@ -3,10 +3,10 @@
 
               if (!(isset($_GET['lang']))) {
                 $lang = 'en';
-                include $lang.'-lang.php';
+                include 'lang/'.$lang.'-lang.php';
               } else {
                 $lang = $_GET['lang'];
-                include $lang.'-lang.php';
+                include 'lang/'.$lang.'-lang.php';
               }           
            
     
@@ -293,7 +293,7 @@
       <div class="row">
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="50ms">
           <div class="thumbnail zoom">
-            <a href="#" data-toggle="modal" data-target="#rcw">
+            <a href="modals/rcw.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#rcw">
               
                 <img src="images/portfolio/thmb/rcw.jpg" alt="<?php echo $portfolio[0][0]; ?>" title="<?php echo $company.' '.$portfolio[0][0]; ?>" style="width:100%">            
 
@@ -307,7 +307,7 @@
 
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
           <div class="thumbnail zoom">
-            <a href="#" data-toggle="modal" data-target="#<?php echo $portfolio[1][0]; ?>">
+            <a href="modals/facade.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#<?php echo $portfolio[1][0]; ?>">
               <img src="images/portfolio/thmb/facade.jpg" alt="<?php echo $portfolio[1][0]; ?>" title="<?php echo $company.' '.$portfolio[1][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[1][0]; ?></h3>
@@ -319,7 +319,7 @@
 
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
           <div class="thumbnail zoom">
-            <a href="#" data-toggle="modal" data-target="#gypsum">
+            <a href="modals/gypsum.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#gypsum">
               <img src="images/portfolio/thmb/gypsum.jpg" alt="<?php echo $portfolio[2][0]; ?>" title="<?php echo $company.' '.$portfolio[2][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[2][0]; ?></h3>
@@ -331,7 +331,7 @@
 
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="350ms">
           <div class="thumbnail zoom">
-            <a href="#" data-toggle="modal" data-target="#klinka">
+            <a href="modals/klinka.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#klinka">
               <img src="images/portfolio/thmb/klinka.jpg" alt="<?php echo $portfolio[3][0]; ?>" title="<?php echo $company.' '.$portfolio[3][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[3][0]; ?></h3>
@@ -346,7 +346,7 @@
 
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="450ms">
           <div class="thumbnail zoom">
-            <a href="#" data-toggle="modal" data-target="#painting">
+            <a href="modals/painting.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#painting">
               <img src="images/portfolio/thmb/painting.jpg" alt="<?php echo $portfolio[4][0]; ?>" title="<?php echo $company.' '.$portfolio[4][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[4][0]; ?></h3>
@@ -358,7 +358,7 @@
 
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="550ms">
           <div class="thumbnail zoom">
-            <a href="#" data-toggle="modal" data-target="#underfloor_cladding">
+            <a href="modals/underfloor_cladding.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#underfloor_cladding">
               <img src="images/portfolio/thmb/cladding.jpg" alt="<?php echo $portfolio[5][0]; ?>" title="<?php echo $company.' '.$portfolio[5][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[5][0]; ?></h3>
@@ -370,7 +370,7 @@
 
         <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="650ms">
           <div class="thumbnail zoom">
-            <a href="#" data-toggle="modal" data-target="#interior">
+            <a href="modals/interior.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#interior">
               <img src="images/portfolio/thmb/interior.jpg" alt="<?php echo $portfolio[6][0]; ?>" title="<?php echo $company.' '.$portfolio[6][0]; ?>" style="width:100%">
               <div class="caption">
                 <h3><?php echo $portfolio[6][0]; ?></h3>
@@ -531,6 +531,8 @@
     </div>
   </footer>
 
+ <!--MODALS -->
+
   <!-- Modal <?php echo $portfolio[0][0]; ?> -->
   <div class="modal fade" id="rcw" role="dialog">
     <div class="modal-dialog modal-lg">
@@ -538,137 +540,18 @@
       <!-- <?php echo $portfolio[0][0]; ?> content-->
       <div class="modal-content">
         
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title"><?php echo $portfolio[0][0]; ?></h4>
-        </div>
-
-        <div class="modal-body">
-
-          <?php
-
-          for($i=1;$i<=46;$i++) {
-
-            if ($i == 2) {
-              for ($j=1;$j<=2;$j++) {
-                $k=3-$i;
-          
-          ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/rcw/<?php echo $k.'-'.$j; ?>.jpg" alt="<?php echo $portfolio[0][0]; ?>" title="<?php echo $company.' '.$portfolio[0][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[0][0]; ?></p>
-            </div>
-          </div>
-
-          <?php
-
-              }
-            }
-
-          ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/rcw/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[0][0]; ?>" title="<?php echo $company.' '.$portfolio[0][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[0][0]; ?></p>
-            </div>
-          </div>
-
-          <?php
-          
-          }
-          
-          ?>
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
-        </div>
-
-          </div>
-        </div>
       </div>
 
     </div>
   </div>
 
   <!-- Modal <?php echo $portfolio[1][0]; ?> -->
-  <div class="modal fade" id="<?php echo $portfolio[1][0]; ?>" role="dialog">
+  <div class="modal fade" id="facade" role="dialog">
     <div class="modal-dialog modal-lg">
     
       <!-- <?php echo $portfolio[1][0]; ?> content-->
       <div class="modal-content">
         
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title"><?php echo $portfolio[1][0]; ?></h4>
-        </div>
-
-        <div class="modal-body">
-
-          <?php for($i=1;$i<=20;$i++) { ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/facade/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[1][0]; ?>" title="<?php echo $company.' '.$portfolio[1][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[1][0]; ?></p>
-            </div>
-          </div>
-
-          <?php } ?>
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
-        </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal <?php echo $portfolio[5][0]; ?> -->
-  <div class="modal fade" id="underfloor_cladding" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- <?php echo $portfolio[5][0]; ?> content-->
-      <div class="modal-content">
-        
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title"><?php echo $portfolio[5][0]; ?></h4>
-        </div>
-
-        <div class="modal-body">
-
-          <?php for($i=1;$i<=2;$i++) { ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/underfloor_cladding/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[5][0]; ?>" title="<?php echo $company.' '.$portfolio[5][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[5][0]; ?></p>
-            </div>
-          </div>
-
-          <?php } ?>
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
-        </div>
-
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -680,33 +563,6 @@
       <!-- <?php echo $portfolio[2][0]; ?> content-->
       <div class="modal-content">
         
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title"><?php echo $portfolio[2][0]; ?></h4>
-        </div>
-
-        <div class="modal-body">
-
-          <?php for($i=1;$i<=11;$i++) { ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/gypsum/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[2][0]; ?>" title="<?php echo $company.' '.$portfolio[5][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[2][0]; ?></p>
-            </div>
-          </div>
-
-          <?php } ?>
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
-        </div>
-
-          </div>
-        </div>
       </div>
 
     </div>
@@ -718,34 +574,32 @@
     
       <!-- Klinka <?php echo $portfolio[3][0]; ?>-->
       <div class="modal-content">
-        
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title"><?php echo $portfolio[3][0]; ?></h4>
-        </div>
-
-        <div class="modal-body">
-
-          <?php for($i=1;$i<=10;$i++) { ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/klinka/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[3][0]; ?>" title="<?php echo $company.' '.$portfolio[3][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[3][0]; ?></p>
-            </div>
-          </div>
-
-          <?php } ?>
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
-        </div>
 
       </div>
         
+    </div>
+  </div>
+
+    <!-- Modal <?php echo $portfolio[4][0]; ?> -->
+  <div class="modal fade" id="painting" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- <?php echo $portfolio[4][0]; ?> content-->
+      <div class="modal-content">
+
+      </div>
+
+    </div>
+  </div> 
+
+    <!-- Modal <?php echo $portfolio[5][0]; ?> -->
+  <div class="modal fade" id="underfloor_cladding" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- <?php echo $portfolio[5][0]; ?> content-->
+      <div class="modal-content">
+ 
+      </div>
     </div>
   </div>
 
@@ -755,82 +609,22 @@
     
       <!-- <?php echo $portfolio[6][0]; ?> content-->
       <div class="modal-content">
-        
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title"><?php echo $portfolio[6][0]; ?></h4>
-        </div>
-
-        <div class="modal-body">
-
-          <?php for($i=1;$i<=6;$i++) { ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/interior/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[6][0]; ?>" title="<?php echo $company.' '.$portfolio[6][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[6][0]; ?></p>
-            </div>
-          </div>
-
-          <?php } ?>
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
-        </div>
 
       </div>
         
     </div>
   </div>
 
-  <!-- Modal <?php echo $portfolio[4][0]; ?> -->
-  <div class="modal fade" id="painting" role="dialog">
-    <div class="modal-dialog modal-lg">
-    
-      <!-- <?php echo $portfolio[4][0]; ?> content-->
-      <div class="modal-content">
-
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">X</button>
-          <h4 class="modal-title"><?php echo $portfolio[4][0]; ?></h4>
-        </div>
-
-        <div class="modal-body">
-
-          <?php for($i=1;$i<=6;$i++) { ?>
-
-          <div class="thumbnail">
-            <img class="img-responsive" src="images/portfolio/painting/<?php echo $i; ?>.jpg" alt="<?php echo $portfolio[4][0]; ?>" title="<?php echo $company.' '.$portfolio[4][0]; ?>">
-            <div class="caption">
-              <button type="button" class="close" data-dismiss="modal">X</button>
-              <p><?php echo $portfolio[4][0]; ?></p>
-            </div>
-          </div>
-
-          <?php } ?>
-
-        </div>
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
-        </div>
-
-      </div>
-
-  </div> 
-
+   <!--JS -->
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.inview.min.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/mousescroll.js"></script>
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/mousescroll.min.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.min.js"></script>
   <script type="text/javascript" src="js/jquery.countTo.js"></script>
   <script type="text/javascript" src="js/lightbox.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/main.min.js"></script>
   
   <!--Angular -->
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
