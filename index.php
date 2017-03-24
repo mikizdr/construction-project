@@ -172,7 +172,7 @@
         </div>
         <div class="row">
 
-          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="450ms">
+          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="50ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -181,7 +181,7 @@
               <p><?php echo $services[4][1]; ?></p>
             </div>
           </div>
-          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="550ms">
+          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="150ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -191,7 +191,7 @@
             </div>
           </div>
 
-          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="650ms">
+          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="250ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -200,7 +200,7 @@
               <p><?php echo $services[6][1]; ?></p>
             </div>
           </div>
-          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="750ms">
+          <div class="col-sm-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="350ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -213,7 +213,7 @@
         </div>
         <div class="row">
 
-          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="800ms">
+          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="50ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -222,7 +222,7 @@
               <p><?php echo $services[8][1]; ?></p>
             </div>
           </div>
-          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="850ms">
+          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -231,7 +231,7 @@
               <p><?php echo $services[9][1]; ?></p>
             </div>
           </div>
-          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="900ms">
+          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -240,7 +240,7 @@
               <p><?php echo $services[10][1]; ?></p>
             </div>
           </div>
-          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="950ms">
+          <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="350ms">
             <div class="service-icon">
               <i class="fa fa-check"></i>
             </div>
@@ -259,14 +259,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="50ms">
             <h2><?php echo $aboutus_title; ?></h2>
             <p><?php echo $aboutus_text_1; ?></p>
             <p><?php echo $aboutus_text_2; ?></p>
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="150ms">
             <h2><?php echo $history_title; ?></h2>
             <p><?php echo $history_text_1; ?></p>
             <p><?php echo $history_text_2; ?></p>
@@ -344,7 +344,7 @@
       </div>
       <div class="row">
 
-        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="450ms">
+        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="50ms">
           <div class="thumbnail zoom">
             <a href="modals/painting.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#painting">
               <img src="images/portfolio/thmb/painting.jpg" alt="<?php echo $portfolio[4][0]; ?>" title="<?php echo $company.' '.$portfolio[4][0]; ?>" style="width:100%">
@@ -356,7 +356,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="550ms">
+        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="150ms">
           <div class="thumbnail zoom">
             <a href="modals/underfloor_cladding.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#underfloor_cladding">
               <img src="images/portfolio/thmb/cladding.jpg" alt="<?php echo $portfolio[5][0]; ?>" title="<?php echo $company.' '.$portfolio[5][0]; ?>" style="width:100%">
@@ -368,7 +368,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="650ms">
+        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
           <div class="thumbnail zoom">
             <a href="modals/interior.php?lang=<?php echo $lang; ?>" data-toggle="modal" data-target="#interior">
               <img src="images/portfolio/thmb/interior.jpg" alt="<?php echo $portfolio[6][0]; ?>" title="<?php echo $company.' '.$portfolio[6][0]; ?>" style="width:100%">
@@ -380,7 +380,7 @@
           </div>
         </div>
 
-        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="750ms">
+        <div class="col-sm-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="350ms">
           <div class="thumbnail zoom">
             <a href="#">
               <img src="images/portfolio/thmb/exterior.jpg" alt="<?php echo $portfolio[7][0]; ?>" title="<?php echo $company.' '.$portfolio[7][0]; ?>" style="width:100%">
@@ -408,19 +408,19 @@
     <div id="contact-us" class="parallax">
       <div class="container">
         <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow bounceInDown" data-wow-duration="500ms" data-wow-delay="200ms">
             <h2><?php echo $contact_title; ?></h2>
             
           </div>
         </div>
-        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="contact-form wow bounceInDown" data-wow-duration="500ms" data-wow-delay="200ms">
           <div class="row">
             <div class="col-sm-6">
               <form id="main-contact-form" name="myForm" method="POST" action="sendemail.php" novalidate>
                 <div ng-hide="emlvalid.warning">
                   <p><?php echo $contact_text_1; ?></p>
                 </div>
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="row  wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                   <div class="col-sm-6">
                     <div class="form-group">
                       <input type="text" name="name" class="form-control" 
