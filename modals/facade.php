@@ -1,10 +1,16 @@
-<!-- Modal <?php echo $portfolio[1][0]; ?> -->
-<div class="modal fade" id="<?php echo $portfolio[1][0]; ?>" role="dialog">
-	<div class="modal-dialog modal-lg">
+<?php
+    # what language we shall use with the GET method
 
-	  <!-- <?php echo $portfolio[1][0]; ?> content-->
-	  <div class="modal-content">
-	    
+              if (!(isset($_GET['lang']))) {
+                $lang = 'en';
+                include '../lang/'.$lang.'-lang.php';
+              } else {
+                $lang = $_GET['lang'];
+                include '../lang/'.$lang.'-lang.php';
+              }           
+           
+    
+?>
 	    <div class="modal-header">
 	      <button type="button" class="close" data-dismiss="modal">X</button>
 	      <h4 class="modal-title"><?php echo $portfolio[1][0]; ?></h4>
@@ -29,7 +35,3 @@
 	    <div class="modal-footer">
 	      <button type="button" class="btn btn-default" data-dismiss="modal"><?php echo $close_button; ?></button>
 	    </div>
-
-	  </div>
-	</div>
-</div>
