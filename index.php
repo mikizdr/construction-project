@@ -105,7 +105,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+            <h1><img class="img-responsive" src="images/logo.jpg" alt="<?php echo $company.' '.$slogan; ?>"></h1>
           </a>                    
         </div>
         <div class="collapse navbar-collapse">
@@ -503,16 +503,13 @@
     <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
         <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+          <a href="index.html"><img class="img-responsive" src="images/logo.jpg" alt="<?php echo $company.' '.$slogan; ?>"></a>
         </div>
         <div class="social-icons">
           <ul>
-            <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="envelope" href="mailto:sloba.veber@gmail.com"><i class="fa fa-envelope"></i></a></li>
             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
           </ul>
         </div>
       </div>
