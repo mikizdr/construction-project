@@ -1,6 +1,6 @@
 <?php
 
-$company = 'Construction Project ltd';
+$company = 'Construction Project д.о.о.';
 
 $title = 'Construction Project - консалтинг - пројектовање - конструисање - изградња';
 

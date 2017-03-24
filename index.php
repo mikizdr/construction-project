@@ -18,7 +18,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
+  <meta name="description" content="<?php echo $company.' '.$slogan; ?>">
   <meta name="author" content="Мирослав Здравковић">
   <meta http-equiv="last-modified" content="<?php echo date("d.m.Y H:i:s.", getlastmod());j; ?>" />
   <meta name="copyright" content="© 2017 constructionprojectltd.com" />
